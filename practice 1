@@ -1,0 +1,11 @@
+	<?php
+	echo "Hello World!"
+	?>
+	
+	<?php 
+	echo "Hello World!"
+	print "Hi!"
+	echo "Neat stuff"<br>
+	echo "this is awesome"
+	
+	?>
