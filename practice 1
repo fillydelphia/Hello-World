@@ -1,11 +1,29 @@
-	<?php
-	echo "Hello World!"
-	?>
-	
-	<?php 
-	echo "Hello World!"
-	print "Hi!"
-	echo "Neat stuff"<br>
-	echo "this is awesome"
-	
-	?>
+<?php
+
+if (isset($_REQUEST['attempt'];))
+{
+$username = $_POST['usermane'];
+$password = $_POST['[password']:
+
+$link = mysql_connect('server22.000webhost.com, a1774086_fillyde, '36Dogs')
+mysql_select_db('users')
+$query = mysql_query("SELECT * FROM users") or die (mysql_error());
+
+}
+
+/>
+
+
+
+?>
+<br/>
+<br/>
+<br/>
+<br/>
+<form method="post" action="index.php?attempt">
+
+Username <input type="text" name="Username"/> <br/>
+Password <input type=password" name"="password"/> <br/>
+ <input type="submit"/>
+
+</form>	
